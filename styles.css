@@ -1,0 +1,51 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Ariel, sans-serif;
+}
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    background-color: #f9e1c0;
+}
+
+#sidebar .header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#sidebar .title {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    white-space: nowrap;
+}
+
+#sidebar .title span {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#sidebar .category {
+    color: #0081AF;
+    margin-left: 20px;
+}
+
+#sidebar a {
+    color: #6290C8;
+    text-decoration: none;
+}
+
+#sidebar .sidebar-image {
+    max-width: 100px;
+    height: auto;
+}
+
+#article {
+    margin-left: 250px;
+    padding: 20px;
+}

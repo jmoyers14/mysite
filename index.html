@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jeremy Moyers</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+    </head>
+    <body>
+        <div id="sidebar">
+            <div class="header">
+                <img
+                    class="sidebar-image"
+                    src="assets/logo.png"
+                    alt="Site Image"
+                />
+                <div class="title">
+                    <span>Jeremy</span>
+                    <span>Moyers</span>
+                </div>
+            </div>
+
+            <nav>
+                <b class="category">Links</b>
+                <ul>
+                    <li>
+                        <a
+                            href="https://twitter.com/JeremyMoyers"
+                            target="_blank"
+                            class="twitter-link"
+                            >X</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://github.com/jmoyers14"
+                            target="_blank"
+                            class="twitter-link"
+                            >github</a
+                        >
+                    </li>
+                </ul>
+                <b class="category">Posts</b>
+                <ul>
+                    <li>
+                        <a
+                            href="#"
+                            onclick="openArticle('./articles/article_1.html')"
+                            >Category 1</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="#"
+                            onclick="openArticle('./articles/article_2.html')"
+                            >Category 2</a
+                        >
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <article id="article"></article>
+    </body>
+
+    <script src="./scripts/openArticle.js"></script>
+</html>
