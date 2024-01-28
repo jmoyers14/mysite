@@ -81,3 +81,15 @@ html {
 #home-link:hover {
     text-decoration: underline;
 }
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image-container img {
+    flex: 1;
+    margin: 10px;
+    max-width: calc(50% - 20px);
+}
