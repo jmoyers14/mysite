@@ -82,8 +82,16 @@ html {
     text-decoration: underline;
 }
 
-.image-container {
+.image-container-h {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px 10px;
+}
+
+.image-container-v {
+    display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
